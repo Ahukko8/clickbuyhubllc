@@ -1,0 +1,47 @@
+export const PLANS = [
+  {
+    id: 'consultation',
+    name: 'Consultation',
+    price: 50,
+    description: 'One-on-one expert consultation session',
+    features: [
+      '60-minute video call',
+      'Project roadmap review',
+      'Tech stack recommendations',
+      'Q&A session',
+      'Follow-up email summary',
+    ],
+    badge: null,
+  },
+  {
+    id: 'code-review',
+    name: 'Code Review',
+    price: 100,
+    description: 'Deep dive into your codebase',
+    features: [
+      'Full codebase audit',
+      'Security vulnerability check',
+      'Performance analysis',
+      'Best practices report',
+      'Refactoring suggestions',
+      'Priority support (48h)',
+    ],
+    badge: 'Popular',
+  },
+  {
+    id: 'fullstack',
+    name: 'Full-Stack Dev',
+    price: 250,
+    description: 'Dedicated full-stack developer for 3 months',
+    features: [
+      'Full-time dedicated developer',
+      'Frontend + Backend development',
+      'Database design & optimization',
+      'CI/CD pipeline setup',
+      'Weekly progress reports',
+      'Unlimited revisions',
+      'Post-delivery support',
+    ],
+    badge: 'Best Value',
+  },
+];
