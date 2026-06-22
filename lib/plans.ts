@@ -2,7 +2,7 @@ export const PLANS = [
   {
     id: 'consultation',
     name: 'Consultation',
-    price: 50,
+    price: 10,
     description: 'One-on-one expert consultation session',
     features: [
       '60-minute video call',
