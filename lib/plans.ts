@@ -2,7 +2,7 @@ export const PLANS = [
   {
     id: 'consultation',
     name: 'Consultation',
-    price: 10,
+    price: 50,
     description: 'One-on-one expert consultation session',
     features: [
       '60-minute video call',
@@ -31,7 +31,7 @@ export const PLANS = [
   {
     id: 'fullstack',
     name: 'Full-Stack Dev',
-    price: 250,
+    price: 1000,
     description: 'Dedicated full-stack developer for 3 months',
     features: [
       'Full-time dedicated developer',
